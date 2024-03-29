@@ -1,4 +1,4 @@
-module github.com/qiannian0116/gee-cache/geecache
+module geecache
 
 go 1.21.1
 
