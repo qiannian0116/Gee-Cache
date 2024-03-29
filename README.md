@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GeeCache
 
 ## Overview
@@ -174,6 +173,3 @@ go run main.go -api=1 -port=9999
 ```
 
 In the browser, visit `http://localhost:9999/api?kay=Tom`, you can see that it returns `Tom`’s score `630`. In the cache server’s log, you can see the node-to-node communication and cache hit situation.
-=======
-
->>>>>>> 4c0769de21270df34077601aaa934c78df9647c1
