@@ -82,6 +82,6 @@ func main() {
 	if api {
 		go startAPIServer(apiAddr, gee)
 	}
-	log.Println("port is :", port)
+	//log.Println("port is :", port)
 	startCacheServer(addrMap[port], addrs, gee)
 }

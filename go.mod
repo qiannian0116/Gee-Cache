@@ -1,4 +1,4 @@
-module gee-cache
+module Gee-Cache
 
 go 1.21.1
 

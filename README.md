@@ -43,7 +43,6 @@ Gee-Cache/
 ├── go.mod
 ├── go.sum
 ├── run.sh
-├── README_zh.md
 └── README.md
 ```
 
@@ -64,7 +63,7 @@ To use local cache, you need to create a `Group` first, specifying the cache nam
 ```go
 import (
 	"fmt"
-	"github.com/Mitsui515/GeeCache/geecache"
+	"github.com/qiannian0116/Gee-Cache/geecache"
 )
 
 var db = map[string]string{
@@ -108,7 +107,7 @@ To use distributed cache, you need to create an `HTTPPool`, which is the core co
 ```go
 import (
 	"fmt"
-	"github.com/Mitsui515/GeeCache/geecache"
+	"github.com/qiannian0116/Gee-Cache/geecache"
 	"log"
 	"net/http"
 )
