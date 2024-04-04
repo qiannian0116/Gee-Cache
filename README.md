@@ -51,7 +51,7 @@ Gee-Cache/
 Install GeeCache using the `go get` command:
 
 ```shell
-go get -u github.com/Mitsui515/GeeCache/geecache
+go get -u github.com/qiannian0116/Gee-Cache/geecache
 ```
 
 ## Usage Examples
